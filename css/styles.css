@@ -1,0 +1,127 @@
+/*modelo de caja = margin,padding, border, overflow, display= inline, block, inline-block float*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(192, 10, 10)
+}
+.content-menu{
+    width: 100%;
+    margin: auto;
+    /* outline: 1px solid black; */
+    background-image: url(https://i.blogs.es/23a158/legumbres/840_560.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 10px;
+    overflow: hidden;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.menu{
+    background-color:rgba(129, 43, 43, 0.801);
+    padding: 10px;
+    border-radius: 0px 0px 20px 20px;
+    overflow: hidden;
+    transition: 3s all;
+}
+.menu:hover .menu-content--list{
+    margin: 300px 0px 0px 10px ;
+    transition: 3s all;
+}
+.icono-tienda{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    background-image: url(https://user-images.githubusercontent.com/55671686/115157851-057ff880-a051-11eb-9ba4-d2aecf9b90d6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu-content--list{
+    width: 60%;
+    margin: 20px 0px 0px 10px ;
+    float: right;
+    transition: 3s all;
+    
+}
+
+.list{
+    display: inline-block;
+    list-style: none;
+}
+.list>a{
+    display: block;
+    padding: 10px;
+    background-color: #903c40;
+    color: white;
+    text-decoration: none;
+}
+.list>a:hover{
+   background-color: #ccffbd;
+    color: black;
+    cursor: pointer;
+    
+}
+list>a:visited{
+   
+     color: rgb(211, 42, 42);
+     cursor: pointer;
+     
+ }
+
+h1{
+    color: wheat;
+}
+
+h1.text1,h1.text2{
+    width: 33%;
+    background-color: rgb(161, 13, 13);
+    display: inline-block;
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    background: rgba(224, 111, 111, 0.76);
+}
+p{
+    color: rgb(255, 255, 255);
+}
+
+.parte1{
+    background-color: rgb(122, 48, 48);
+    block-size: 50px;
+    position: absolute;
+    height: 20em;
+    width: 49%;
+    margin-top: 20px;
+}
+.tomate{
+    height: 230px;
+    width: 430px;
+    margin-top: 10px;
+
+}
+
+.producto_1{
+    text-align: center;
+}
+
+.parte2{
+    background-color: rgb(122, 48, 48);
+    block-size: 50px;
+    position: absolute;
+    height: 20em;
+    width: 49%;
+    margin-top: 20px;
+    margin-left: 50%;
+}
+.tomateverde{
+    height: 230px;
+    width: 430px;
+    margin-top: 10px;
+}
+
+.producto_2{
+    text-align: center;
+}
